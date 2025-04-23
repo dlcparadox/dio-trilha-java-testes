@@ -1,5 +1,6 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
+        
         // Tipos primitivos
         String nome = "Joshuah"; // Defini um texto
         boolean verdadeira = true; //Defini se é verdadeiro ou falso
@@ -13,5 +14,9 @@ public class TiposVariaveis {
 
         final String DEFINICAO = "Não muda";
         // final é um tipo de variável que não pode ser alterado depois de definido.
+
+        System.out.println("Nome: " + nome);
     }
+
 }
+
